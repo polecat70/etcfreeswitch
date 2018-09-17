@@ -1,0 +1,10 @@
+<include>
+	<extension name="messagenet-outbound">
+		<condition field="destination_number"       expression="^\d{8,}$">
+			<action application="set" data="effective_caller_id_name=${outbound_caller_id_name}"/>
+			<action application="set" data="effective_caller_id_number=${outbound_caller_id_number}"/>
+			<action application="set" data="hangup_after_bridge=true"/>
+			<action application="bridge"         data="sofia/gateway/messagenet/${destination_number}"/>
+		</condition>
+	</extension>
+</include>

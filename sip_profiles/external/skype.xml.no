@@ -1,0 +1,15 @@
+<include>
+	<gateway name="skype">
+		<param name="realm" value="sip.skype.com"/>
+		<param name="proxy" value="sip.skype.com"/> <!-- is this necessary? it's the same as realm -->
+		<param name="from-domain" value="sip.skype.com"/>
+		<param name="username" value="99051000150445"/>
+		<param name="from-user" value="99051000150445"/>
+		<param name="password" value="K7QCXBY2x9YkML"/>
+		<param name="contact-params" value="99051000150445@sip.skype.com"/>
+		<param name="extension" value="99051000150445"/>
+		<param name="extension-in-contact" value="true"/>
+		<param name="retry-seconds" value="30"/>
+		<param name="caller-id-in-from" value="false"/>
+	</gateway>
+</include>

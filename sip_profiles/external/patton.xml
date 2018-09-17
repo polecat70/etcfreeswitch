@@ -1,0 +1,8 @@
+<include>
+	<gateway name="patton"> 
+		<param name="register" value="false"/> 
+		<param name="proxy" value="192.168.1.230"/> 
+		<param name="sip-port" value="5060"/> 
+		<param name="caller-id-in-from" value="true" /> 
+	</gateway> 
+</include>

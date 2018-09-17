@@ -1,0 +1,8 @@
+<include> 
+	<extension name="ht503-inbound">   
+		<!-- <condition field="destination_number"       expression="^(5406092314)$">)$">    -->
+			<action application="set"        data="domain_name=${domain}"/>     
+			<action application="transfer" data="1000 XML default"/>    
+		<!-- </condition> -->
+	</extension>
+</include>

@@ -1,0 +1,12 @@
+<include>
+
+	<gateway name="realtoneFXO">
+		<param name="realm" value="192.168.0.216:5060"/>
+		<param name="proxy" value="192.168.0.216:5060"/>
+		<param name="expire-seconds" value="800"/>
+		<param name="register" value="false"/>
+		<param name="retry-seconds" value="60"/>
+		<param name="context" value="public"/>
+	</gateway>
+
+</include>

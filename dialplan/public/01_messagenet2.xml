@@ -1,0 +1,8 @@
+<include> 
+	<extension name="messagenet2-inbound">   
+		<condition field="destination_number"       expression="^(5406198794)$">)$" >     
+			<action application="set"        data="domain_name=${domain}"/>     
+			<action application="transfer" data="301 XML default"/>    
+		</condition> 
+	</extension>
+</include>

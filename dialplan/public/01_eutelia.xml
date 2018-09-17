@@ -1,0 +1,8 @@
+<include> 
+	<extension name="eutelia-inbound">   
+		<condition field="destination_number"       expression="^(0683394902)$">)$">     
+			<action application="set"        data="domain_name=${domain}"/>     
+			<action application="transfer" data="400 XML default"/>    
+		</condition> 
+	</extension>
+</include>
